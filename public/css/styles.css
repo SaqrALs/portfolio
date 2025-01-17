@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --font: 'Baloo 2', cursive;
+
+    --body: rgb(39, 41, 52);
+
+    --line1: #FFFFFF;
+    --line2: #6C63FF;
+    --line3: #e20e0e;
+
+    --color1: #222222;
+    --color2: rgb(156 163 175);
+
+    --image: 100%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1rem/1.5 var(--body);
+    background: var(--body);
+    font-family: var(--font);
+}
+
+a {
+    color: var(--bs-blue);
+}
+
+img {
+    border-radius: var(--image);
+    pointer-events: none;
+}
+
+
+.card {
+    background: var(--color1);
+    border-radius: var(--image);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: var(--line1);
+}
+
+.icon-1 {
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--line1);
+    transition: all 0.3s ease;
+}
+
+.icon-1:hover {
+    background: var(--line1);
+    color: var(--color1);
+}
+
+
+.fa-brands5 {
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.icon-2:hover {
+    background: #E04A25;
+    color: var(--line1);
+}
+
+
+.icon-3:hover {
+    background: #0A6CB5;
+    color: var(--line1);
+}
+
+.icon-4:hover {
+    background: #7952B3;
+    color: var(--line1);
+}
+
+#r404 {
+    color: #770c0c;
+}
+
+.TEXT {
+    color: var(--color2);
+}
+
+
+
+
+@media (min-width: 320px) {
+    .m-3 {
+        margin: .3rem!important;
+    }
+    .btn {
+        padding: .200rem .100rem;
+    }
+}
+
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+    overflow: hidden;
+    background: #6C63FF;
+    background: -webkit-linear-gradient(to bottom, #2e28a2, #6C63FF);
+    background: linear-gradient(to bottom, #8f8ae9, #6C63FF);
+    border-radius: 100px;
+    transition: all 1s ease-in-out;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6C63FF
+}
